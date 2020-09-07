@@ -48,6 +48,8 @@ class PerisherWrapper():
         return df_forecast
 
     def parseSnowForecast(self, level):
+        if pd.isnull(level):
+            return 0
         level = level.replace("cm", "")
 
         if level == 'Nil':
