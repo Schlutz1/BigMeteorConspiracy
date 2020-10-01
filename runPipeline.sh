@@ -1,2 +1,2 @@
-jupyter nbconvert --ExecutePreprocessor.timeout=600 --ExecutePreprocessor.kernel_name=python3 --execute ./whyYouAlwaysLying.ipynb
-mv ./*.html ./reports
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --ExecutePreprocessor.kernel_name=python3 --execute /Users/mschultz/Documents/Misc/isPerisherFullOfShit/whyYouAlwaysLying.ipynb
+mv /Users/mschultz/Documents/Misc/isPerisherFullOfShit/*.html /Users/mschultz/Documents/Misc/isPerisherFullOfShit/reports
