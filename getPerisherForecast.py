@@ -30,14 +30,19 @@ class PerisherWrapper():
         for day in range(1, DAY_RANGE):
             _ = {}
             for entry in range(1, ENTRY_RANGE):
-                var = self.driver.find_element_by_xpath(perisher_xpath.format(
-                    day=day,
-                    entry=entry
-                ))
-                if day == 1 and entry != 1:  # param the headers, skip first empty column
-                    headers_forecast[entry] = var.text.replace(" ","_").lower()
-                else:
-                    _[headers_forecast[entry]] = var.text
+                try:
+                    var = self.driver.find_element_by_xpath(perisher_xpath.format(
+                        day=day,
+                        entry=entry
+                    ))
+                    if day == 1 and entry != 1:  # param the headers, skip first empty column
+                        headers_forecast[entry] = var.text.replace(" ","_").lower()
+                    else:
+                        _[headers_forecast[entry]] = var.text
+                
+                except Exception as e:
+                    print(e)
+                    continue
 
             if day > 1:
                 df_forecast.append(_)
