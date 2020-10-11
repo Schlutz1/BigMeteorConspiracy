@@ -6,9 +6,6 @@ Let's find out.
 
 
 ### Analytics & Tracking
-
 Dashboard served up here: https://public.tableau.com/profile/max.schultz#!/vizhome/BigMeteorConspiracyTheory/HowAccuratearePerishersSnowForecasts
-
-
+<br></br>
 Expanded discussion can be found in `whyYouAlwaysLying.ipynb`
-![Perisher Forecast.](./reports/perisherForecast.png)
