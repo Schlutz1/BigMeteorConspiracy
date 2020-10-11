@@ -9,3 +9,13 @@ Let's find out.
 Dashboard served up here: https://public.tableau.com/profile/max.schultz#!/vizhome/BigMeteorConspiracyTheory/HowAccuratearePerishersSnowForecasts
 <br></br>
 Expanded discussion can be found in `whyYouAlwaysLying.ipynb`
+
+
+### Installation
+
+Perisher 2020 season has finished and there is no need to scrape additional data.
+
+~~git clone https://github.com/Schlutz1/isPerisherFullOfShit.git~~
+
+~~./runPipeline.sh~~
+  
