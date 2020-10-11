@@ -5,7 +5,9 @@ It was mentioned to me in passing on a chair lift that ski resorts inflate the f
 Let's find out.
 
 
-### Forecasted Snow
+### Analytics & Tracking
+
+Dashboard served up here: https://public.tableau.com/profile/max.schultz#!/vizhome/BigMeteorConspiracyTheory/HowAccuratearePerishersSnowForecasts
 
 Expanded discussion can be found in `whyYouAlwaysLying.ipynb`
 ![Perisher Forecast.](./reports/perisherForecast.png)
