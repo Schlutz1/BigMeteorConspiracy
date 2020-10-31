@@ -1,4 +1,4 @@
-# Is Perisher Full of Shit?
+# How Reliable are Snow Forecasts?
 
 It was mentioned to me in passing on a chair lift that ski resorts inflate the forecasted snow on Friday's in an attempt to generate business for the weekend.
 
